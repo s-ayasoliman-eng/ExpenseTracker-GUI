@@ -1,37 +1,89 @@
-# ExpenseTracker-GUI
+# Expense Tracker GUI Application
 
-
-A simple and user-friendly desktop application built using Python to track, manage, and visualize daily expenses.
+A simple desktop application built using Python and Tkinter to help users track, manage, and visualize their daily expenses.
 
 ---
 
-##  Project Overview
+## About the Project
 
-This project allows users to:
-- Add daily expenses with date, category, amount, and description
+This application allows users to record their expenses and stores them in a CSV file. It also provides summary statistics and visual charts to analyze spending habits.
+
+This project was built to practice:
+- GUI development using Tkinter  
+- Data handling with CSV files  
+- Data analysis using Pandas  
+- Data visualization using Matplotlib  
+
+---
+
+## Features
+
+- Add new expenses (date, category, amount, description)
 - Store data in a CSV file
-- View total expenses and category-wise breakdown
-- Visualize spending patterns using charts
+- View total expenses
+- Category-wise expense summary
+- Visualize expenses using bar charts
+- Simple and interactive GUI
 
 ---
 
-##  Features
+## Technologies Used
 
--  Add new expenses easily through a GUI
--  View summary of total spending
--  Category-based expense analysis
--  Visual charts using Matplotlib
--  Persistent storage using CSV file
-
----
-
-##  Technologies Used
-
-- Python
-- Tkinter (GUI)
-- Pandas (Data handling)
-- Matplotlib (Visualization)
+- Python  
+- Tkinter  
+- Pandas  
+- Matplotlib  
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+expense_gui/
+
+- app.py            -> Main application file  
+- expenses.csv      -> Data storage file  
+- README.md         -> Project documentation  
+
+---
+
+## How to Run
+
+1. Install required libraries:
+
+pip install pandas matplotlib
+
+2. Run the application:
+
+python app.py
+
+---
+
+## How It Works
+
+- User enters expense details in the GUI  
+- Data is saved into a CSV file  
+- Pandas processes and summarizes data  
+- Matplotlib generates charts for visualization  
+
+---
+
+## Screenshot
+
+Add a screenshot of your application here
+
+---
+
+## Skills Demonstrated
+
+- Python programming  
+- GUI development  
+- Data processing  
+- Data visualization  
+- Building a complete mini project  
+
+---
+
+## Developed by
+
+Aya Ali  
+Computer Science / Data Science Student
