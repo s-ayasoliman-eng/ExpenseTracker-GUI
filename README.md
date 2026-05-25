@@ -1,5 +1,5 @@
 # ExpenseTracker-GUI
-#  Expense Tracker GUI
+
 
 A simple and user-friendly desktop application built using Python to track, manage, and visualize daily expenses.
 
